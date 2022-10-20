@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: refil
       url-base: https://github.com/refil
+    - name: laserscout
+      url-base: https://github.com/laserscout
   projects:
     - name: zmk
       remote: refil
