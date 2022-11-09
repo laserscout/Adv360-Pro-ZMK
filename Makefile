@@ -14,3 +14,6 @@ all:
 clean:
 	rm -f firmware/*.uf2
 	$(DOCKER) image rm zmk docker.io/zmkfirmware/zmk-build-arm:stable
+
+setup: Dockerfile bin/build.sh config/west.yml
+	$(DOCKER) build --progress=plain --tag zmk --file Dockerfile .
