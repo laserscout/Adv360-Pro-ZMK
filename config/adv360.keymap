@@ -42,11 +42,11 @@
     };
     fn {
       bindings = <
-        &kp ESC &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &tog 1                                                      &mo 3  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11
-        &trans  &trans &trans &trans &trans &trans &none                                                       &none  &trans &trans &trans &trans  &trans &kp F12
-        &trans  &trans &trans &trans &trans &trans &none        &trans &trans             &trans &trans        &tog 4 &trans &trans &trans &trans  &trans &trans
-        &trans  &trans &trans &trans &trans &trans       &none  &none  &trans &none &none &trans &none  &none         &trans &trans &trans &trans  &trans &trans
-        &trans  &trans &trans &trans &trans              &trans &trans &trans             &trans &trans &trans               &trans &trans &trans  &trans &trans
+        &kp ESC  &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &tog 1                                                      &mo 3  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11
+        &trans   &trans &trans &trans &trans &trans &none                                                       &none  &trans &trans &trans &trans  &trans &kp F12
+        &kp CAPS &trans &trans &trans &trans &trans &none        &trans &trans             &trans &trans        &tog 4 &trans &trans &trans &trans  &trans &trans
+        &trans   &trans &trans &trans &trans &trans       &none  &none  &trans &none &none &trans &none  &none         &trans &trans &trans &trans  &trans &trans
+        &trans   &trans &trans &trans &trans              &trans &trans &trans             &trans &trans &trans               &trans &trans &trans  &trans &trans
       >;
     };
     mod {
